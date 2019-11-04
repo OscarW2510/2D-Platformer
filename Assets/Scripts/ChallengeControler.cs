@@ -5,7 +5,7 @@ using UnityEngine;
 public class ChallengeControler : MonoBehaviour{
 
     public float scrollspeed = 5.0f;
-
+    bool isGameOver = false;
 
     // Start is called before the first frame update
     void Start()
@@ -15,6 +15,8 @@ public class ChallengeControler : MonoBehaviour{
 
     // Update is called once per frame
     void Update(){
+        if (isGameOver) return;
+
 
         //Scrolling
         GameObject currentChild;
@@ -33,5 +35,9 @@ public class ChallengeControler : MonoBehaviour{
         currentChallenge.transform.position -= Vector3.left * (scrollspeed * Time.deltaTime);
     }
 
+    public void GameOver() {
+        isGameOver = true;
 
+
+    }
 }
