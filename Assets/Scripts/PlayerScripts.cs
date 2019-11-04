@@ -37,7 +37,7 @@ public class PlayerScripts : MonoBehaviour{
 
     void OnCollisionEnter2D(Collision2D other){
 
-        if (other.collider.tag == "Ground"){
+        if (other.collider.tag == "Ground") {
             isGrounded = true;
         }
         if(other.collider.tag == "KillTrigger")

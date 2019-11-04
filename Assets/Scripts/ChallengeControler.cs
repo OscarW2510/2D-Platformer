@@ -37,6 +37,7 @@ public class ChallengeControler : MonoBehaviour{
 
     public void GameOver() {
         isGameOver = true;
+        transform.GetComponent<GameController>().GameOver();
 
 
     }
