@@ -10,12 +10,14 @@ public class PlayerScripts : MonoBehaviour{
     float posX = 0.0f;
     bool isGameOver = false;
     ChallengeControler myChallengeController;
+    GameController myGameController;
 
     // Start is called before the first frame update
     void Start(){
         myRigidbody = transform.GetComponent<Rigidbody2D>();
         posX = transform.position.x;
         myChallengeController = GameObject.FindObjectOfType<ChallengeControler>();
+        myGameController = GameObject.FindObjectOfType<GameController>();
     }
 
    
@@ -68,6 +70,13 @@ public class PlayerScripts : MonoBehaviour{
 
     }
 
+    void OnTriggerEnter2D(Collider2D other){
+        if (other.tag == "Star"){
+            myGameController.IncrementScore();
+            Destroy(other.gameObject);
 
+        }
+        
+    }
 
 }
