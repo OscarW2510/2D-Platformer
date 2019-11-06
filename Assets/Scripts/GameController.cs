@@ -10,6 +10,9 @@ public class GameController : MonoBehaviour
     public GameObject gameOverPanel;
     public GameObject scoreGameObject;
     int score = 0;
+    public Text bestText;
+    public Text currentText;
+    public GameObject newAlert;
 
     // Start is called before the first frame update
     void Start()
@@ -33,6 +36,17 @@ public class GameController : MonoBehaviour
     void ShowOverPanel()
     {
         scoreGameObject.SetActive(false);
+
+        if(score > PlayerPrefs.GetInt("Best", 0))
+        {
+            PlayerPrefs.SetInt("Best", score);
+
+            newAlert.SetActive(true);
+        }
+
+        bestText.text = "Best Score : " + PlayerPrefs.GetInt("Best", 0).ToString();
+        currentText.text = "Current Score : " + score.ToString();
+
         gameOverPanel.SetActive(true);
 
     }
