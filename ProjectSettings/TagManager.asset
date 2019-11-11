@@ -7,6 +7,7 @@ TagManager:
   - Ground
   - KillTrigger
   - Star
+  - JumpPad
   layers:
   - Default
   - TransparentFX
