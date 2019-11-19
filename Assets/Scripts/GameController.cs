@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-
+using UnityEngine.SceneManagement;
 
 public class GameController : MonoBehaviour
 {
@@ -13,6 +13,7 @@ public class GameController : MonoBehaviour
     public Text bestText;
     public Text currentText;
     public GameObject newAlert;
+    public Scene SceneToRestart;
 
     // Start is called before the first frame update
     void Start()
@@ -54,6 +55,11 @@ public class GameController : MonoBehaviour
     {
         Application.LoadLevel(Application.loadedLevelName);
 
+    }
+
+    public void CompleteRestart()
+    {
+        Application.LoadLevel(SceneToRestart.handle);
     }
 
     public void IncrementScore()

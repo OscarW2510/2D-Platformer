@@ -8,6 +8,7 @@ TagManager:
   - KillTrigger
   - Star
   - JumpPad
+  - LevelComplete
   layers:
   - Default
   - TransparentFX

@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerScripts : MonoBehaviour{
 
@@ -71,10 +72,17 @@ public class PlayerScripts : MonoBehaviour{
     }
 
     void OnTriggerEnter2D(Collider2D other){
-        if (other.tag == "Star"){
+        if (other.tag == "Star")
+        {
             myGameController.IncrementScore();
             Destroy(other.gameObject);
 
+        }
+
+
+        else if (other.tag == "LevelComplete") 
+        {
+            SceneManager.LoadScene(2);
         }
         
     }
