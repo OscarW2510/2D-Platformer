@@ -41,6 +41,16 @@ public class ChallengeControler : MonoBehaviour{
 
 
     }
+    public void SpeedX1()
+    {
+        scrollspeed = 5.0f;
+    }
+
+
+    public void SpeedX2()
+    {
+        scrollspeed = 10.0f;
+    }
 
     
 }

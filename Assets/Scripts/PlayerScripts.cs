@@ -25,6 +25,7 @@ public class PlayerScripts : MonoBehaviour{
     void FixedUpdate() {
         if (Input.GetKey(KeyCode.Space) && isGrounded && !isGameOver) {
             myRigidbody.AddForce(Vector3.up * (jumpPower * myRigidbody.mass * myRigidbody.gravityScale * 20.0f));
+            SoundManagerScript.PlaySound("Jump");
         }
       
         
@@ -77,6 +78,7 @@ public class PlayerScripts : MonoBehaviour{
             myGameController.IncrementScore();
             Destroy(other.gameObject);
 
+            SoundManagerScript.PlaySound("Coins");
         }
 
 
@@ -84,6 +86,17 @@ public class PlayerScripts : MonoBehaviour{
         {
             SceneManager.LoadScene(2);
         }
+
+        if (other.tag == "SpeedX1")
+        {
+            myChallengeController.SpeedX1();
+        }
+
+        if (other.tag == "SpeedX2")
+        {
+            myChallengeController.SpeedX2();
+        }
+
         
     }
 
