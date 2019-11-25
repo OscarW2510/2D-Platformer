@@ -9,6 +9,8 @@ TagManager:
   - Star
   - JumpPad
   - LevelComplete
+  - SpeedX2
+  - SpeedX1
   layers:
   - Default
   - TransparentFX

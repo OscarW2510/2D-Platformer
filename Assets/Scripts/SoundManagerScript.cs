@@ -26,7 +26,7 @@ public class SoundManagerScript : MonoBehaviour
     {
         switch (clip)
         {
-            case "Jump  ":
+            case "Jump":
                 audioSrc.PlayOneShot(jumpSound);
                 break;
             case "":
