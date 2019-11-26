@@ -4,12 +4,12 @@ using UnityEngine;
 
 public class SoundManagerScript : MonoBehaviour
 {
-    public static AudioClip jumpSound, deadSound, coinSound, levelcompleteSound;
+    public static AudioClip deadSound, coinSound, levelcompleteSound;
     static AudioSource audioSrc;    
 
     void Start()
     {
-        jumpSound = Resources.Load<AudioClip>("Jump");
+
         levelcompleteSound = Resources.Load<AudioClip>("LevelComplete");
         deadSound = Resources.Load<AudioClip>("Death");
         coinSound = Resources.Load<AudioClip>("Coins");
@@ -26,10 +26,6 @@ public class SoundManagerScript : MonoBehaviour
     {
         switch (clip)
         {
-            case "Jump":
-                audioSrc.PlayOneShot(jumpSound);
-                break;
-            case "":
             case "Death":
                 audioSrc.PlayOneShot(deadSound);
                 break;

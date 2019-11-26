@@ -25,7 +25,6 @@ public class PlayerScripts : MonoBehaviour{
     void FixedUpdate() {
         if (Input.GetKey(KeyCode.Space) && isGrounded && !isGameOver) {
             myRigidbody.AddForce(Vector3.up * (jumpPower * myRigidbody.mass * myRigidbody.gravityScale * 20.0f));
-            SoundManagerScript.PlaySound("Jump");
         }
       
         
@@ -44,10 +43,11 @@ public class PlayerScripts : MonoBehaviour{
         if (other.collider.tag == "Ground") {
             isGrounded = true;
         }
-        if(other.collider.tag == "KillTrigger")
+        if (other.collider.tag == "KillTrigger")
         {
             isGameOver = true;
             myChallengeController.GameOver();
+            SoundManagerScript.PlaySound("Death");
         }
 
     }
