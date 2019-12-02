@@ -38,7 +38,7 @@ public class GameController : MonoBehaviour
     {
         scoreGameObject.SetActive(false);
 
-        if(score > PlayerPrefs.GetInt("Best", 0))
+        if (score > PlayerPrefs.GetInt("Best", 0))
         {
             PlayerPrefs.SetInt("Best", score);
 
@@ -68,5 +68,5 @@ public class GameController : MonoBehaviour
         scoreGameObject.GetComponent<Text>().text = score.ToString();
 
     }
-
+        
 }
