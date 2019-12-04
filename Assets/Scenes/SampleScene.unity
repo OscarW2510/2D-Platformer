@@ -151,7 +151,7 @@ Transform:
   m_LocalScale: {x: 0.3574301, y: 0.38869023, z: 0.4421}
   m_Children: []
   m_Father: {fileID: 67587367}
-  m_RootOrder: 53
+  m_RootOrder: 52
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
 --- !u!68 &39224924
 EdgeCollider2D:
@@ -278,7 +278,7 @@ Transform:
   m_LocalScale: {x: 0.79775, y: 0.86752, z: 0.98673}
   m_Children: []
   m_Father: {fileID: 67587367}
-  m_RootOrder: 108
+  m_RootOrder: 107
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!68 &40764565
 EdgeCollider2D:
@@ -404,7 +404,7 @@ Transform:
   m_LocalScale: {x: 0.723, y: 0.668, z: 1}
   m_Children: []
   m_Father: {fileID: 67587367}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &48785866
 BoxCollider2D:
@@ -539,8 +539,8 @@ MonoBehaviour:
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 20
+    m_Font: {fileID: 12800000, guid: eac0da03b8837a7478bd1f25b5a1f209, type: 3}
+    m_FontSize: 30
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -590,7 +590,6 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1647685701}
-  - {fileID: 1522766414}
   - {fileID: 196131605}
   - {fileID: 1779139354}
   - {fileID: 48785865}
@@ -755,11 +754,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 69449173}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 192.99701, y: 0.3000006, z: 0}
+  m_LocalPosition: {x: 191.40677, y: 0.3000006, z: 0}
   m_LocalScale: {x: 0.79775, y: 0.86752, z: 0.98673}
   m_Children: []
   m_Father: {fileID: 67587367}
-  m_RootOrder: 97
+  m_RootOrder: 96
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!68 &69449175
 EdgeCollider2D:
@@ -886,7 +885,7 @@ Transform:
   m_LocalScale: {x: 0.79775, y: 0.86752, z: 0.98673}
   m_Children: []
   m_Father: {fileID: 67587367}
-  m_RootOrder: 129
+  m_RootOrder: 128
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!68 &82705932
 EdgeCollider2D:
@@ -1078,7 +1077,7 @@ Transform:
   m_LocalScale: {x: 3.7480216, y: 0.78742456, z: 1}
   m_Children: []
   m_Father: {fileID: 67587367}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &143197039
 BoxCollider2D:
@@ -1308,11 +1307,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 148428215}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 181.81499, y: 3.9330006, z: 0}
+  m_LocalPosition: {x: 180.22475, y: 3.9330006, z: 0}
   m_LocalScale: {x: 3.7024598, y: 0.58033997, z: 1}
   m_Children: []
   m_Father: {fileID: 67587367}
-  m_RootOrder: 36
+  m_RootOrder: 35
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &148428217
 BoxCollider2D:
@@ -1419,7 +1418,7 @@ Transform:
   m_LocalScale: {x: 0.80847996, y: 0.8792, z: 1}
   m_Children: []
   m_Father: {fileID: 67587367}
-  m_RootOrder: 19
+  m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &149448538
 BoxCollider2D:
@@ -1592,7 +1591,7 @@ Transform:
   m_LocalScale: {x: 0.723, y: 0.668, z: 1}
   m_Children: []
   m_Father: {fileID: 67587367}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &180913288
 BoxCollider2D:
@@ -1695,11 +1694,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 196131604}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 3.608, y: 1.324, z: 0}
-  m_LocalScale: {x: 5.2180786, y: 0.9660329, z: 1}
+  m_LocalPosition: {x: 3.3225, y: 1.324, z: 0}
+  m_LocalScale: {x: 5.7889366, y: 0.9660329, z: 1}
   m_Children: []
   m_Father: {fileID: 67587367}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &196131606
 BoxCollider2D:
@@ -1806,7 +1805,7 @@ Transform:
   m_LocalScale: {x: 0.80847996, y: 0.8792, z: 1}
   m_Children: []
   m_Father: {fileID: 67587367}
-  m_RootOrder: 17
+  m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &232325479
 BoxCollider2D:
@@ -1913,7 +1912,7 @@ Transform:
   m_LocalScale: {x: 1.75763, y: 0.66433, z: 0.937}
   m_Children: []
   m_Father: {fileID: 67587367}
-  m_RootOrder: 132
+  m_RootOrder: 131
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &254840720
 BoxCollider2D:
@@ -2020,7 +2019,7 @@ Transform:
   m_LocalScale: {x: 10.883074, y: 0.78742, z: 1}
   m_Children: []
   m_Father: {fileID: 67587367}
-  m_RootOrder: 31
+  m_RootOrder: 30
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &260573937
 BoxCollider2D:
@@ -2123,11 +2122,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 261985402}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 171.43091, y: 6.7089996, z: 0}
+  m_LocalPosition: {x: 169.84067, y: 6.7089996, z: 0}
   m_LocalScale: {x: 5.89564, y: 0.78742, z: 1}
   m_Children: []
   m_Father: {fileID: 67587367}
-  m_RootOrder: 32
+  m_RootOrder: 31
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &261985404
 BoxCollider2D:
@@ -2235,7 +2234,7 @@ Transform:
   m_LocalScale: {x: 0.49585998, y: 0.53923, z: 0.61333}
   m_Children: []
   m_Father: {fileID: 67587367}
-  m_RootOrder: 66
+  m_RootOrder: 65
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
 --- !u!68 &263427338
 EdgeCollider2D:
@@ -2468,7 +2467,7 @@ Transform:
   m_LocalScale: {x: 0.47381, y: 0.48477998, z: 1}
   m_Children: []
   m_Father: {fileID: 67587367}
-  m_RootOrder: 134
+  m_RootOrder: 133
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &286150064
 BoxCollider2D:
@@ -2576,7 +2575,7 @@ Transform:
   m_LocalScale: {x: 0.79775, y: 0.86752, z: 0.98673}
   m_Children: []
   m_Father: {fileID: 67587367}
-  m_RootOrder: 120
+  m_RootOrder: 119
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!68 &289329351
 EdgeCollider2D:
@@ -2699,11 +2698,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 300830811}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 191.067, y: 0.3000006, z: 0}
+  m_LocalPosition: {x: 189.47676, y: 0.3000006, z: 0}
   m_LocalScale: {x: 0.79775, y: 0.86752, z: 0.98673}
   m_Children: []
   m_Father: {fileID: 67587367}
-  m_RootOrder: 92
+  m_RootOrder: 91
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!68 &300830813
 EdgeCollider2D:
@@ -2829,7 +2828,7 @@ Transform:
   m_LocalScale: {x: 0.47381, y: 0.48477998, z: 1}
   m_Children: []
   m_Father: {fileID: 67587367}
-  m_RootOrder: 33
+  m_RootOrder: 32
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &310055210
 BoxCollider2D:
@@ -2933,11 +2932,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 312808737}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 185.205, y: 0.28000015, z: 0}
+  m_LocalPosition: {x: 183.61476, y: 0.28000015, z: 0}
   m_LocalScale: {x: 0.79775, y: 0.86752, z: 0.98673}
   m_Children: []
   m_Father: {fileID: 67587367}
-  m_RootOrder: 86
+  m_RootOrder: 85
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!68 &312808739
 EdgeCollider2D:
@@ -3064,7 +3063,7 @@ Transform:
   m_LocalScale: {x: 0.79775, y: 0.86752, z: 0.98673}
   m_Children: []
   m_Father: {fileID: 67587367}
-  m_RootOrder: 103
+  m_RootOrder: 102
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!68 &323532296
 EdgeCollider2D:
@@ -3190,7 +3189,7 @@ Transform:
   m_LocalScale: {x: 0.47380608, y: 0.4847756, z: 1}
   m_Children: []
   m_Father: {fileID: 67587367}
-  m_RootOrder: 30
+  m_RootOrder: 29
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &351161157
 BoxCollider2D:
@@ -3298,7 +3297,7 @@ Transform:
   m_LocalScale: {x: 0.79775, y: 0.86752, z: 0.98673}
   m_Children: []
   m_Father: {fileID: 67587367}
-  m_RootOrder: 130
+  m_RootOrder: 129
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!68 &352276159
 EdgeCollider2D:
@@ -8345,8 +8344,8 @@ MonoBehaviour:
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 871b7d519661a8b41a69f52ecf8cc7cc, type: 3}
-    m_FontSize: 35
+    m_Font: {fileID: 12800000, guid: eac0da03b8837a7478bd1f25b5a1f209, type: 3}
+    m_FontSize: 40
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -13152,7 +13151,7 @@ Transform:
   m_LocalScale: {x: 0.79775, y: 0.86752, z: 0.98673}
   m_Children: []
   m_Father: {fileID: 67587367}
-  m_RootOrder: 74
+  m_RootOrder: 73
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!68 &420983471
 EdgeCollider2D:
@@ -13279,7 +13278,7 @@ Transform:
   m_LocalScale: {x: 0.3574301, y: 0.38869023, z: 0.4421}
   m_Children: []
   m_Father: {fileID: 67587367}
-  m_RootOrder: 58
+  m_RootOrder: 57
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
 --- !u!68 &428837228
 EdgeCollider2D:
@@ -13406,7 +13405,7 @@ Transform:
   m_LocalScale: {x: 0.79775, y: 0.86752, z: 0.98673}
   m_Children: []
   m_Father: {fileID: 67587367}
-  m_RootOrder: 100
+  m_RootOrder: 99
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!68 &431304810
 EdgeCollider2D:
@@ -13533,7 +13532,7 @@ Transform:
   m_LocalScale: {x: 0.79775, y: 0.86752, z: 0.98673}
   m_Children: []
   m_Father: {fileID: 67587367}
-  m_RootOrder: 72
+  m_RootOrder: 71
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!68 &433281270
 EdgeCollider2D:
@@ -13806,7 +13805,7 @@ Transform:
   m_LocalScale: {x: 0.79775, y: 0.86752, z: 0.98673}
   m_Children: []
   m_Father: {fileID: 67587367}
-  m_RootOrder: 111
+  m_RootOrder: 110
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!68 &437665279
 EdgeCollider2D:
@@ -13928,11 +13927,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 444384907}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 197.027, y: 0.23200077, z: 0}
+  m_LocalPosition: {x: 195.43675, y: 0.23200077, z: 0}
   m_LocalScale: {x: 0.47381, y: 0.42466998, z: 1}
   m_Children: []
   m_Father: {fileID: 67587367}
-  m_RootOrder: 41
+  m_RootOrder: 40
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &444384909
 BoxCollider2D:
@@ -14039,7 +14038,7 @@ Transform:
   m_LocalScale: {x: 0.80847996, y: 0.8792, z: 1}
   m_Children: []
   m_Father: {fileID: 67587367}
-  m_RootOrder: 21
+  m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &447076272
 BoxCollider2D:
@@ -14146,7 +14145,7 @@ Transform:
   m_LocalScale: {x: 0.47381, y: 0.42466998, z: 1}
   m_Children: []
   m_Father: {fileID: 67587367}
-  m_RootOrder: 47
+  m_RootOrder: 46
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &458386408
 BoxCollider2D:
@@ -14250,11 +14249,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 463140788}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 192.339, y: 0.3000006, z: 0}
+  m_LocalPosition: {x: 190.74876, y: 0.3000006, z: 0}
   m_LocalScale: {x: 0.79775, y: 0.86752, z: 0.98673}
   m_Children: []
   m_Father: {fileID: 67587367}
-  m_RootOrder: 94
+  m_RootOrder: 93
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!68 &463140790
 EdgeCollider2D:
@@ -14381,7 +14380,7 @@ Transform:
   m_LocalScale: {x: 0.79775, y: 0.86752, z: 0.98673}
   m_Children: []
   m_Father: {fileID: 67587367}
-  m_RootOrder: 126
+  m_RootOrder: 125
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!68 &471906647
 EdgeCollider2D:
@@ -14508,7 +14507,7 @@ Transform:
   m_LocalScale: {x: 0.79775, y: 0.86752, z: 0.98673}
   m_Children: []
   m_Father: {fileID: 67587367}
-  m_RootOrder: 105
+  m_RootOrder: 104
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!68 &484607360
 EdgeCollider2D:
@@ -14635,7 +14634,7 @@ Transform:
   m_LocalScale: {x: 0.49586228, y: 0.53922963, z: 0.61332774}
   m_Children: []
   m_Father: {fileID: 67587367}
-  m_RootOrder: 60
+  m_RootOrder: 59
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!68 &494101987
 EdgeCollider2D:
@@ -15017,7 +15016,7 @@ Transform:
   m_LocalScale: {x: 0.79775, y: 0.86752, z: 0.98673}
   m_Children: []
   m_Father: {fileID: 67587367}
-  m_RootOrder: 106
+  m_RootOrder: 105
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!68 &529483599
 EdgeCollider2D:
@@ -15143,7 +15142,7 @@ Transform:
   m_LocalScale: {x: 3.7024598, y: 0.58033997, z: 1}
   m_Children: []
   m_Father: {fileID: 67587367}
-  m_RootOrder: 44
+  m_RootOrder: 43
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &534648445
 BoxCollider2D:
@@ -15335,7 +15334,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 541175864}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 90.65837, y: -0.081581116, z: 0}
+  m_LocalPosition: {x: 89.41, y: -0.081581116, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1259701324}
@@ -15372,7 +15371,7 @@ Transform:
   m_LocalScale: {x: 0.357429, y: 0.38869432, z: 0.4421}
   m_Children: []
   m_Father: {fileID: 67587367}
-  m_RootOrder: 50
+  m_RootOrder: 49
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
 --- !u!68 &547920746
 EdgeCollider2D:
@@ -15499,7 +15498,7 @@ Transform:
   m_LocalScale: {x: 0.79775, y: 0.86752, z: 0.98673}
   m_Children: []
   m_Father: {fileID: 67587367}
-  m_RootOrder: 65
+  m_RootOrder: 64
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!68 &575119849
 EdgeCollider2D:
@@ -15626,7 +15625,7 @@ Transform:
   m_LocalScale: {x: 0.79775, y: 0.86752, z: 0.98673}
   m_Children: []
   m_Father: {fileID: 67587367}
-  m_RootOrder: 63
+  m_RootOrder: 62
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!68 &581648038
 EdgeCollider2D:
@@ -15753,7 +15752,7 @@ Transform:
   m_LocalScale: {x: 0.79775, y: 0.86752, z: 0.98673}
   m_Children: []
   m_Father: {fileID: 67587367}
-  m_RootOrder: 81
+  m_RootOrder: 80
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!68 &594498704
 EdgeCollider2D:
@@ -20735,11 +20734,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 629529375}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 195.137, y: 0.23200077, z: 0}
+  m_LocalPosition: {x: 193.54675, y: 0.23200077, z: 0}
   m_LocalScale: {x: 0.47381, y: 0.42466998, z: 1}
   m_Children: []
   m_Father: {fileID: 67587367}
-  m_RootOrder: 40
+  m_RootOrder: 39
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &629529377
 BoxCollider2D:
@@ -20843,11 +20842,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 642788051}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 190.409, y: 0.3000006, z: 0}
+  m_LocalPosition: {x: 188.81876, y: 0.3000006, z: 0}
   m_LocalScale: {x: 0.79775, y: 0.86752, z: 0.98673}
   m_Children: []
   m_Father: {fileID: 67587367}
-  m_RootOrder: 88
+  m_RootOrder: 87
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!68 &642788053
 EdgeCollider2D:
@@ -20970,11 +20969,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 652363023}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 191.70999, y: 0.30300087, z: 0}
+  m_LocalPosition: {x: 190.11975, y: 0.30300087, z: 0}
   m_LocalScale: {x: 0.79775, y: 0.86752, z: 0.98673}
   m_Children: []
   m_Father: {fileID: 67587367}
-  m_RootOrder: 93
+  m_RootOrder: 92
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!68 &652363025
 EdgeCollider2D:
@@ -21101,7 +21100,7 @@ Transform:
   m_LocalScale: {x: 0.79775, y: 0.86752, z: 0.98673}
   m_Children: []
   m_Father: {fileID: 67587367}
-  m_RootOrder: 116
+  m_RootOrder: 115
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!68 &676388686
 EdgeCollider2D:
@@ -21228,7 +21227,7 @@ Transform:
   m_LocalScale: {x: 0.79775, y: 0.86752, z: 0.98673}
   m_Children: []
   m_Father: {fileID: 67587367}
-  m_RootOrder: 104
+  m_RootOrder: 103
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!68 &682846566
 EdgeCollider2D:
@@ -21355,7 +21354,7 @@ Transform:
   m_LocalScale: {x: 0.79775, y: 0.86752, z: 0.98673}
   m_Children: []
   m_Father: {fileID: 67587367}
-  m_RootOrder: 115
+  m_RootOrder: 114
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!68 &736425880
 EdgeCollider2D:
@@ -21477,11 +21476,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 765205313}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 182.217, y: 4.643999, z: 0}
+  m_LocalPosition: {x: 180.62675, y: 4.643999, z: 0}
   m_LocalScale: {x: 0.47381, y: 0.42466998, z: 1}
   m_Children: []
   m_Father: {fileID: 67587367}
-  m_RootOrder: 39
+  m_RootOrder: 38
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &765205315
 BoxCollider2D:
@@ -21589,7 +21588,7 @@ Transform:
   m_LocalScale: {x: 0.79775, y: 0.86752, z: 0.98673}
   m_Children: []
   m_Father: {fileID: 67587367}
-  m_RootOrder: 131
+  m_RootOrder: 130
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!68 &786270579
 EdgeCollider2D:
@@ -21715,7 +21714,7 @@ Transform:
   m_LocalScale: {x: 0.80847996, y: 0.8792, z: 1}
   m_Children: []
   m_Father: {fileID: 67587367}
-  m_RootOrder: 13
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &799088923
 BoxCollider2D:
@@ -21823,7 +21822,7 @@ Transform:
   m_LocalScale: {x: 0.79775, y: 0.86752, z: 0.98673}
   m_Children: []
   m_Father: {fileID: 67587367}
-  m_RootOrder: 73
+  m_RootOrder: 72
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!68 &803848371
 EdgeCollider2D:
@@ -22053,11 +22052,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 839453997}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 184.547, y: 0.2799992, z: 0}
+  m_LocalPosition: {x: 182.95676, y: 0.2799992, z: 0}
   m_LocalScale: {x: 0.79775, y: 0.86752, z: 0.98673}
   m_Children: []
   m_Father: {fileID: 67587367}
-  m_RootOrder: 82
+  m_RootOrder: 81
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!68 &839453999
 EdgeCollider2D:
@@ -22183,7 +22182,7 @@ Transform:
   m_LocalScale: {x: 1.31461, y: 0.66433, z: 0.937}
   m_Children: []
   m_Father: {fileID: 67587367}
-  m_RootOrder: 45
+  m_RootOrder: 44
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &839769085
 BoxCollider2D:
@@ -22291,7 +22290,7 @@ Transform:
   m_LocalScale: {x: 0.79775, y: 0.86752, z: 0.98673}
   m_Children: []
   m_Father: {fileID: 67587367}
-  m_RootOrder: 124
+  m_RootOrder: 123
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!68 &841981646
 EdgeCollider2D:
@@ -22545,8 +22544,8 @@ MonoBehaviour:
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 871b7d519661a8b41a69f52ecf8cc7cc, type: 3}
-    m_FontSize: 48
+    m_Font: {fileID: 12800000, guid: eac0da03b8837a7478bd1f25b5a1f209, type: 3}
+    m_FontSize: 56
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -22596,7 +22595,7 @@ Transform:
   m_LocalScale: {x: 1.31461, y: 0.66433, z: 0.937}
   m_Children: []
   m_Father: {fileID: 67587367}
-  m_RootOrder: 49
+  m_RootOrder: 48
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &862461835
 BoxCollider2D:
@@ -22704,7 +22703,7 @@ Transform:
   m_LocalScale: {x: 0.79775, y: 0.86752, z: 0.98673}
   m_Children: []
   m_Father: {fileID: 67587367}
-  m_RootOrder: 109
+  m_RootOrder: 108
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!68 &882359794
 EdgeCollider2D:
@@ -22831,7 +22830,7 @@ Transform:
   m_LocalScale: {x: 0.79775, y: 0.86752, z: 0.98673}
   m_Children: []
   m_Father: {fileID: 67587367}
-  m_RootOrder: 117
+  m_RootOrder: 116
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!68 &899597178
 EdgeCollider2D:
@@ -22958,7 +22957,7 @@ Transform:
   m_LocalScale: {x: 0.79775, y: 0.86752, z: 0.98673}
   m_Children: []
   m_Father: {fileID: 67587367}
-  m_RootOrder: 128
+  m_RootOrder: 127
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!68 &905907881
 EdgeCollider2D:
@@ -23085,7 +23084,7 @@ Transform:
   m_LocalScale: {x: 0.79775, y: 0.86752, z: 0.98673}
   m_Children: []
   m_Father: {fileID: 67587367}
-  m_RootOrder: 112
+  m_RootOrder: 111
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!68 &916721865
 EdgeCollider2D:
@@ -23211,7 +23210,7 @@ Transform:
   m_LocalScale: {x: 1.75763, y: 0.66433, z: 0.937}
   m_Children: []
   m_Father: {fileID: 67587367}
-  m_RootOrder: 133
+  m_RootOrder: 132
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &926180909
 BoxCollider2D:
@@ -23314,11 +23313,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 926181359}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 177.30699, y: 5.723999, z: 0}
+  m_LocalPosition: {x: 175.71675, y: 5.723999, z: 0}
   m_LocalScale: {x: 0.47381, y: 0.42466727, z: 1}
   m_Children: []
   m_Father: {fileID: 67587367}
-  m_RootOrder: 37
+  m_RootOrder: 36
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &926181361
 BoxCollider2D:
@@ -23425,7 +23424,7 @@ Transform:
   m_LocalScale: {x: 1.31461, y: 0.66433, z: 0.937}
   m_Children: []
   m_Father: {fileID: 67587367}
-  m_RootOrder: 48
+  m_RootOrder: 47
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &927101315
 BoxCollider2D:
@@ -23529,11 +23528,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 939646693}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 172.1, y: 7.33, z: 0}
+  m_LocalPosition: {x: 170.50977, y: 7.33, z: 0}
   m_LocalScale: {x: 0.49585998, y: 0.53923, z: 0.61333}
   m_Children: []
   m_Father: {fileID: 67587367}
-  m_RootOrder: 77
+  m_RootOrder: 76
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!68 &939646695
 EdgeCollider2D:
@@ -23656,11 +23655,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 945725816}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 185.205, y: 0.28000015, z: 0}
+  m_LocalPosition: {x: 183.61476, y: 0.28000015, z: 0}
   m_LocalScale: {x: 0.79775, y: 0.86752, z: 0.98673}
   m_Children: []
   m_Father: {fileID: 67587367}
-  m_RootOrder: 83
+  m_RootOrder: 82
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!68 &945725818
 EdgeCollider2D:
@@ -23787,7 +23786,7 @@ Transform:
   m_LocalScale: {x: 0.3574301, y: 0.38869023, z: 0.4421}
   m_Children: []
   m_Father: {fileID: 67587367}
-  m_RootOrder: 54
+  m_RootOrder: 53
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
 --- !u!68 &946811007
 EdgeCollider2D:
@@ -23914,7 +23913,7 @@ Transform:
   m_LocalScale: {x: 0.79775, y: 0.86752, z: 0.98673}
   m_Children: []
   m_Father: {fileID: 67587367}
-  m_RootOrder: 107
+  m_RootOrder: 106
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!68 &947421570
 EdgeCollider2D:
@@ -24045,8 +24044,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.000015259, y: -0.0019332}
-  m_SizeDelta: {x: 1280, y: 502.46}
+  m_AnchoredPosition: {x: -0.000015259, y: 0.0009994507}
+  m_SizeDelta: {x: 1280, y: 768.53}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &952046457
 MonoBehaviour:
@@ -24117,7 +24116,7 @@ Transform:
   m_LocalScale: {x: 0.79775, y: 0.86752, z: 0.98673}
   m_Children: []
   m_Father: {fileID: 67587367}
-  m_RootOrder: 113
+  m_RootOrder: 112
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!68 &954257688
 EdgeCollider2D:
@@ -24240,11 +24239,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 981418853}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 191.067, y: 0.3000006, z: 0}
+  m_LocalPosition: {x: 189.47676, y: 0.3000006, z: 0}
   m_LocalScale: {x: 0.79775, y: 0.86752, z: 0.98673}
   m_Children: []
   m_Father: {fileID: 67587367}
-  m_RootOrder: 89
+  m_RootOrder: 88
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!68 &981418855
 EdgeCollider2D:
@@ -24371,7 +24370,7 @@ Transform:
   m_LocalScale: {x: 0.79775, y: 0.86752, z: 0.98673}
   m_Children: []
   m_Father: {fileID: 67587367}
-  m_RootOrder: 110
+  m_RootOrder: 109
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!68 &983627224
 EdgeCollider2D:
@@ -24498,7 +24497,7 @@ Transform:
   m_LocalScale: {x: 0.79775, y: 0.86752, z: 0.98673}
   m_Children: []
   m_Father: {fileID: 67587367}
-  m_RootOrder: 122
+  m_RootOrder: 121
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!68 &985133703
 EdgeCollider2D:
@@ -24625,7 +24624,7 @@ Transform:
   m_LocalScale: {x: 0.79775, y: 0.86752, z: 0.98673}
   m_Children: []
   m_Father: {fileID: 67587367}
-  m_RootOrder: 123
+  m_RootOrder: 122
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!68 &1018392368
 EdgeCollider2D:
@@ -24752,7 +24751,7 @@ Transform:
   m_LocalScale: {x: 0.3574301, y: 0.38869023, z: 0.4421}
   m_Children: []
   m_Father: {fileID: 67587367}
-  m_RootOrder: 55
+  m_RootOrder: 54
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
 --- !u!68 &1019463991
 EdgeCollider2D:
@@ -24879,7 +24878,7 @@ Transform:
   m_LocalScale: {x: 0.79775, y: 0.86752, z: 0.98673}
   m_Children: []
   m_Father: {fileID: 67587367}
-  m_RootOrder: 99
+  m_RootOrder: 98
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!68 &1022088134
 EdgeCollider2D:
@@ -25005,7 +25004,7 @@ Transform:
   m_LocalScale: {x: 0.47381, y: 0.42466998, z: 1}
   m_Children: []
   m_Father: {fileID: 67587367}
-  m_RootOrder: 46
+  m_RootOrder: 45
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &1037028799
 BoxCollider2D:
@@ -25112,7 +25111,7 @@ Transform:
   m_LocalScale: {x: 3.74802, y: 0.78742, z: 1}
   m_Children: []
   m_Father: {fileID: 67587367}
-  m_RootOrder: 26
+  m_RootOrder: 25
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &1042202090
 BoxCollider2D:
@@ -25219,7 +25218,7 @@ Transform:
   m_LocalScale: {x: 0.80847996, y: 0.8792, z: 1}
   m_Children: []
   m_Father: {fileID: 67587367}
-  m_RootOrder: 12
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &1046255493
 BoxCollider2D:
@@ -25327,7 +25326,7 @@ Transform:
   m_LocalScale: {x: 0.79775, y: 0.86752, z: 0.98673}
   m_Children: []
   m_Father: {fileID: 67587367}
-  m_RootOrder: 75
+  m_RootOrder: 74
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!68 &1056584810
 EdgeCollider2D:
@@ -25454,7 +25453,7 @@ Transform:
   m_LocalScale: {x: 0.7977543, y: 0.86752427, z: 0.9867304}
   m_Children: []
   m_Father: {fileID: 67587367}
-  m_RootOrder: 56
+  m_RootOrder: 55
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!68 &1067455110
 EdgeCollider2D:
@@ -25581,7 +25580,7 @@ Transform:
   m_LocalScale: {x: 0.49585998, y: 0.53923, z: 0.61333}
   m_Children: []
   m_Father: {fileID: 67587367}
-  m_RootOrder: 64
+  m_RootOrder: 63
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!68 &1078255354
 EdgeCollider2D:
@@ -25708,7 +25707,7 @@ Transform:
   m_LocalScale: {x: 0.79775, y: 0.86752, z: 0.98673}
   m_Children: []
   m_Father: {fileID: 67587367}
-  m_RootOrder: 98
+  m_RootOrder: 97
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!68 &1089247957
 EdgeCollider2D:
@@ -25913,7 +25912,7 @@ Transform:
   m_LocalScale: {x: 0.80847996, y: 0.8792, z: 1}
   m_Children: []
   m_Father: {fileID: 67587367}
-  m_RootOrder: 20
+  m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &1101010532
 BoxCollider2D:
@@ -26021,7 +26020,7 @@ Transform:
   m_LocalScale: {x: 0.79775, y: 0.86752, z: 0.98673}
   m_Children: []
   m_Father: {fileID: 67587367}
-  m_RootOrder: 125
+  m_RootOrder: 124
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!68 &1110261507
 EdgeCollider2D:
@@ -26147,7 +26146,7 @@ Transform:
   m_LocalScale: {x: 0.723, y: 0.668, z: 1}
   m_Children: []
   m_Father: {fileID: 67587367}
-  m_RootOrder: 27
+  m_RootOrder: 26
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &1113322237
 BoxCollider2D:
@@ -26334,7 +26333,7 @@ Transform:
   m_LocalScale: {x: 1.273869, y: 0.61220807, z: 1}
   m_Children: []
   m_Father: {fileID: 67587367}
-  m_RootOrder: 9
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &1153572524
 BoxCollider2D:
@@ -26442,7 +26441,7 @@ Transform:
   m_LocalScale: {x: 0.79775, y: 0.86752, z: 0.98673}
   m_Children: []
   m_Father: {fileID: 67587367}
-  m_RootOrder: 76
+  m_RootOrder: 75
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!68 &1155715462
 EdgeCollider2D:
@@ -26568,7 +26567,7 @@ Transform:
   m_LocalScale: {x: 0.80847996, y: 0.8792, z: 1}
   m_Children: []
   m_Father: {fileID: 67587367}
-  m_RootOrder: 22
+  m_RootOrder: 21
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &1185031868
 BoxCollider2D:
@@ -26676,7 +26675,7 @@ Transform:
   m_LocalScale: {x: 0.30983463, y: 0.33693218, z: 0.38322988}
   m_Children: []
   m_Father: {fileID: 67587367}
-  m_RootOrder: 71
+  m_RootOrder: 70
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
 --- !u!68 &1200868377
 EdgeCollider2D:
@@ -26925,7 +26924,7 @@ Transform:
   m_LocalScale: {x: 3.74802, y: 0.78742, z: 1}
   m_Children: []
   m_Father: {fileID: 67587367}
-  m_RootOrder: 10
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &1271967116
 BoxCollider2D:
@@ -27033,7 +27032,7 @@ Transform:
   m_LocalScale: {x: 0.3574301, y: 0.38869023, z: 0.4421}
   m_Children: []
   m_Father: {fileID: 67587367}
-  m_RootOrder: 59
+  m_RootOrder: 58
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
 --- !u!68 &1286561519
 EdgeCollider2D:
@@ -27263,11 +27262,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1311444493}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 192.99701, y: 0.3000006, z: 0}
+  m_LocalPosition: {x: 191.40677, y: 0.3000006, z: 0}
   m_LocalScale: {x: 0.79775, y: 0.86752, z: 0.98673}
   m_Children: []
   m_Father: {fileID: 67587367}
-  m_RootOrder: 95
+  m_RootOrder: 94
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!68 &1311444495
 EdgeCollider2D:
@@ -27394,7 +27393,7 @@ Transform:
   m_LocalScale: {x: 0.357429, y: 0.38869432, z: 0.4421}
   m_Children: []
   m_Father: {fileID: 67587367}
-  m_RootOrder: 51
+  m_RootOrder: 50
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
 --- !u!68 &1315567734
 EdgeCollider2D:
@@ -27521,7 +27520,7 @@ Transform:
   m_LocalScale: {x: 0.79775, y: 0.86752, z: 0.98673}
   m_Children: []
   m_Father: {fileID: 67587367}
-  m_RootOrder: 114
+  m_RootOrder: 113
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!68 &1334489343
 EdgeCollider2D:
@@ -27647,7 +27646,7 @@ Transform:
   m_LocalScale: {x: 0.723, y: 0.668, z: 1}
   m_Children: []
   m_Father: {fileID: 67587367}
-  m_RootOrder: 24
+  m_RootOrder: 23
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &1338163249
 BoxCollider2D:
@@ -27755,7 +27754,7 @@ Transform:
   m_LocalScale: {x: 0.79775, y: 0.86752, z: 0.98673}
   m_Children: []
   m_Father: {fileID: 67587367}
-  m_RootOrder: 80
+  m_RootOrder: 79
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!68 &1347410788
 EdgeCollider2D:
@@ -27882,7 +27881,7 @@ Transform:
   m_LocalScale: {x: 0.30983463, y: 0.33693218, z: 0.38322988}
   m_Children: []
   m_Father: {fileID: 67587367}
-  m_RootOrder: 70
+  m_RootOrder: 69
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
 --- !u!68 &1365086580
 EdgeCollider2D:
@@ -28009,7 +28008,7 @@ Transform:
   m_LocalScale: {x: 0.79775, y: 0.86752, z: 0.98673}
   m_Children: []
   m_Father: {fileID: 67587367}
-  m_RootOrder: 127
+  m_RootOrder: 126
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!68 &1404080530
 EdgeCollider2D:
@@ -28135,7 +28134,7 @@ Transform:
   m_LocalScale: {x: 0.80847996, y: 0.8792, z: 1}
   m_Children: []
   m_Father: {fileID: 67587367}
-  m_RootOrder: 14
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &1427107324
 BoxCollider2D:
@@ -28243,7 +28242,7 @@ Transform:
   m_LocalScale: {x: 0.79775, y: 0.86752, z: 0.98673}
   m_Children: []
   m_Father: {fileID: 67587367}
-  m_RootOrder: 61
+  m_RootOrder: 60
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!68 &1444140356
 EdgeCollider2D:
@@ -28369,7 +28368,7 @@ Transform:
   m_LocalScale: {x: 0.47381, y: 0.48477998, z: 1}
   m_Children: []
   m_Father: {fileID: 67587367}
-  m_RootOrder: 34
+  m_RootOrder: 33
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &1466934824
 BoxCollider2D:
@@ -28473,11 +28472,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1488848317}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 185.84799, y: 0.2830004, z: 0}
+  m_LocalPosition: {x: 184.25775, y: 0.2830004, z: 0}
   m_LocalScale: {x: 0.79775, y: 0.86752, z: 0.98673}
   m_Children: []
   m_Father: {fileID: 67587367}
-  m_RootOrder: 84
+  m_RootOrder: 83
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!68 &1488848319
 EdgeCollider2D:
@@ -28604,7 +28603,7 @@ Transform:
   m_LocalScale: {x: 0.79775, y: 0.86752, z: 0.98673}
   m_Children: []
   m_Father: {fileID: 67587367}
-  m_RootOrder: 119
+  m_RootOrder: 118
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!68 &1492315809
 EdgeCollider2D:
@@ -28730,7 +28729,7 @@ Transform:
   m_LocalScale: {x: 0.47381, y: 0.48477998, z: 1}
   m_Children: []
   m_Father: {fileID: 67587367}
-  m_RootOrder: 135
+  m_RootOrder: 134
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &1509210499
 BoxCollider2D:
@@ -28837,7 +28836,7 @@ Transform:
   m_LocalScale: {x: 0.723, y: 0.668, z: 1}
   m_Children: []
   m_Father: {fileID: 67587367}
-  m_RootOrder: 28
+  m_RootOrder: 27
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &1517214593
 BoxCollider2D:
@@ -28905,113 +28904,6 @@ SpriteRenderer:
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: eae13946a51939f43830b06d02bd9ce1, type: 3}
   m_Color: {r: 1, g: 0.9815198, b: 0, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
---- !u!1 &1522766413
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1522766414}
-  - component: {fileID: 1522766416}
-  - component: {fileID: 1522766415}
-  m_Layer: 0
-  m_Name: Ground
-  m_TagString: Ground
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1522766414
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1522766413}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.9, y: 1.308, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 67587367}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!61 &1522766415
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1522766413}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
-    newSize: {x: 1, y: 1}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1}
-  m_EdgeRadius: 0
---- !u!212 &1522766416
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1522766413}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 660ca4cf64831734bad464d943caa0fa, type: 3}
-  m_Color: {r: 1, g: 0.3019608, b: 0, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -29185,7 +29077,7 @@ Transform:
   m_LocalScale: {x: 0.79775, y: 0.86752, z: 0.98673}
   m_Children: []
   m_Father: {fileID: 67587367}
-  m_RootOrder: 79
+  m_RootOrder: 78
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!68 &1544918671
 EdgeCollider2D:
@@ -29311,7 +29203,7 @@ Transform:
   m_LocalScale: {x: 0.80847996, y: 0.8792, z: 1}
   m_Children: []
   m_Father: {fileID: 67587367}
-  m_RootOrder: 15
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &1553747718
 BoxCollider2D:
@@ -29418,7 +29310,7 @@ Transform:
   m_LocalScale: {x: 0.80847996, y: 0.8792, z: 1}
   m_Children: []
   m_Father: {fileID: 67587367}
-  m_RootOrder: 18
+  m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &1558207122
 BoxCollider2D:
@@ -29525,7 +29417,7 @@ Transform:
   m_LocalScale: {x: 0.80847996, y: 0.8792, z: 1}
   m_Children: []
   m_Father: {fileID: 67587367}
-  m_RootOrder: 16
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &1558999772
 BoxCollider2D:
@@ -29633,7 +29525,7 @@ Transform:
   m_LocalScale: {x: 0.79775, y: 0.86752, z: 0.98673}
   m_Children: []
   m_Father: {fileID: 67587367}
-  m_RootOrder: 69
+  m_RootOrder: 68
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
 --- !u!68 &1574795023
 EdgeCollider2D:
@@ -29787,12 +29679,12 @@ MonoBehaviour:
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 871b7d519661a8b41a69f52ecf8cc7cc, type: 3}
-    m_FontSize: 35
+    m_Font: {fileID: 12800000, guid: eac0da03b8837a7478bd1f25b5a1f209, type: 3}
+    m_FontSize: 40
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
-    m_MaxSize: 40
+    m_MaxSize: 41
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
@@ -29982,7 +29874,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.6862745}
+  m_Color: {r: 0.6320754, g: 0.6320754, b: 0.6320754, a: 0.6862745}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -30038,7 +29930,7 @@ Transform:
   m_LocalScale: {x: 0.49585998, y: 0.53923, z: 0.61333}
   m_Children: []
   m_Father: {fileID: 67587367}
-  m_RootOrder: 68
+  m_RootOrder: 67
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
 --- !u!68 &1640242218
 EdgeCollider2D:
@@ -30299,8 +30191,8 @@ MonoBehaviour:
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 871b7d519661a8b41a69f52ecf8cc7cc, type: 3}
-    m_FontSize: 30
+    m_Font: {fileID: 12800000, guid: eac0da03b8837a7478bd1f25b5a1f209, type: 3}
+    m_FontSize: 36
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -30351,7 +30243,7 @@ Transform:
   m_LocalScale: {x: 0.79775, y: 0.86752, z: 0.98673}
   m_Children: []
   m_Father: {fileID: 67587367}
-  m_RootOrder: 57
+  m_RootOrder: 56
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!68 &1662552462
 EdgeCollider2D:
@@ -30477,7 +30369,7 @@ Transform:
   m_LocalScale: {x: 0.80847996, y: 0.8792, z: 1}
   m_Children: []
   m_Father: {fileID: 67587367}
-  m_RootOrder: 23
+  m_RootOrder: 22
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &1666153921
 BoxCollider2D:
@@ -30584,7 +30476,7 @@ Transform:
   m_LocalScale: {x: 3.74802, y: 0.78742, z: 1}
   m_Children: []
   m_Father: {fileID: 67587367}
-  m_RootOrder: 25
+  m_RootOrder: 24
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &1670615772
 BoxCollider2D:
@@ -30692,7 +30584,7 @@ Transform:
   m_LocalScale: {x: 0.3574301, y: 0.38869023, z: 0.4421}
   m_Children: []
   m_Father: {fileID: 67587367}
-  m_RootOrder: 52
+  m_RootOrder: 51
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
 --- !u!68 &1695051018
 EdgeCollider2D:
@@ -30819,7 +30711,7 @@ Transform:
   m_LocalScale: {x: 0.79775, y: 0.86752, z: 0.98673}
   m_Children: []
   m_Father: {fileID: 67587367}
-  m_RootOrder: 121
+  m_RootOrder: 120
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!68 &1712561597
 EdgeCollider2D:
@@ -30945,7 +30837,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 67587367}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &1779139355
 BoxCollider2D:
@@ -31053,7 +30945,7 @@ Transform:
   m_LocalScale: {x: 0.79775, y: 0.86752, z: 0.98673}
   m_Children: []
   m_Father: {fileID: 67587367}
-  m_RootOrder: 118
+  m_RootOrder: 117
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!68 &1782060908
 EdgeCollider2D:
@@ -31179,7 +31071,7 @@ Transform:
   m_LocalScale: {x: 10.11486, y: 12.24909, z: 10.11486}
   m_Children: []
   m_Father: {fileID: 67587367}
-  m_RootOrder: 43
+  m_RootOrder: 42
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &1785390760
 BoxCollider2D:
@@ -31283,11 +31175,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1826395232}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 192.339, y: 0.3000006, z: 0}
+  m_LocalPosition: {x: 190.74876, y: 0.3000006, z: 0}
   m_LocalScale: {x: 0.79775, y: 0.86752, z: 0.98673}
   m_Children: []
   m_Father: {fileID: 67587367}
-  m_RootOrder: 96
+  m_RootOrder: 95
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!68 &1826395234
 EdgeCollider2D:
@@ -31414,7 +31306,7 @@ Transform:
   m_LocalScale: {x: 0.79775, y: 0.86752, z: 0.98673}
   m_Children: []
   m_Father: {fileID: 67587367}
-  m_RootOrder: 67
+  m_RootOrder: 66
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
 --- !u!68 &1826419029
 EdgeCollider2D:
@@ -31631,11 +31523,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1832610915}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 178.817, y: 5.723999, z: 0}
+  m_LocalPosition: {x: 177.22676, y: 5.723999, z: 0}
   m_LocalScale: {x: 0.47381, y: 0.42466727, z: 1}
   m_Children: []
   m_Father: {fileID: 67587367}
-  m_RootOrder: 38
+  m_RootOrder: 37
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &1832610917
 BoxCollider2D:
@@ -31739,11 +31631,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1854375068}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 190.409, y: 0.3000006, z: 0}
+  m_LocalPosition: {x: 188.81876, y: 0.3000006, z: 0}
   m_LocalScale: {x: 0.79775, y: 0.86752, z: 0.98673}
   m_Children: []
   m_Father: {fileID: 67587367}
-  m_RootOrder: 91
+  m_RootOrder: 90
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!68 &1854375070
 EdgeCollider2D:
@@ -31869,7 +31761,7 @@ Transform:
   m_LocalScale: {x: 0.723, y: 0.668, z: 1}
   m_Children: []
   m_Father: {fileID: 67587367}
-  m_RootOrder: 8
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &1867548514
 BoxCollider2D:
@@ -31976,7 +31868,7 @@ Transform:
   m_LocalScale: {x: 1.27387, y: 0.61221, z: 1}
   m_Children: []
   m_Father: {fileID: 67587367}
-  m_RootOrder: 11
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &1893234803
 BoxCollider2D:
@@ -32084,7 +31976,7 @@ Transform:
   m_LocalScale: {x: 0.79775, y: 0.86752, z: 0.98673}
   m_Children: []
   m_Father: {fileID: 67587367}
-  m_RootOrder: 102
+  m_RootOrder: 101
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!68 &1919390185
 EdgeCollider2D:
@@ -32207,11 +32099,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1923287763}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 184.547, y: 0.28000015, z: 0}
+  m_LocalPosition: {x: 182.95676, y: 0.28000015, z: 0}
   m_LocalScale: {x: 0.79775, y: 0.86752, z: 0.98673}
   m_Children: []
   m_Father: {fileID: 67587367}
-  m_RootOrder: 85
+  m_RootOrder: 84
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!68 &1923287765
 EdgeCollider2D:
@@ -32386,7 +32278,7 @@ Transform:
   m_LocalScale: {x: 10.11486, y: 12.249095, z: 10.11486}
   m_Children: []
   m_Father: {fileID: 67587367}
-  m_RootOrder: 42
+  m_RootOrder: 41
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &1937771754
 BoxCollider2D:
@@ -32472,8 +32364,8 @@ MonoBehaviour:
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 20
+    m_Font: {fileID: 12800000, guid: eac0da03b8837a7478bd1f25b5a1f209, type: 3}
+    m_FontSize: 30
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -32520,11 +32412,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1990560798}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 172.656, y: 7.4729996, z: 0}
+  m_LocalPosition: {x: 171.06577, y: 7.4729996, z: 0}
   m_LocalScale: {x: 0.79775, y: 0.86752, z: 0.98673}
   m_Children: []
   m_Father: {fileID: 67587367}
-  m_RootOrder: 78
+  m_RootOrder: 77
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!68 &1990560800
 EdgeCollider2D:
@@ -32757,11 +32649,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1993570146}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 178.017, y: 5.0839996, z: 0}
+  m_LocalPosition: {x: 176.42676, y: 5.0839996, z: 0}
   m_LocalScale: {x: 3.702462, y: 0.5803364, z: 1}
   m_Children: []
   m_Father: {fileID: 67587367}
-  m_RootOrder: 35
+  m_RootOrder: 34
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &1993570148
 BoxCollider2D:
@@ -32869,7 +32761,7 @@ Transform:
   m_LocalScale: {x: 0.49585998, y: 0.53923, z: 0.61333}
   m_Children: []
   m_Father: {fileID: 67587367}
-  m_RootOrder: 62
+  m_RootOrder: 61
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!68 &2001990035
 EdgeCollider2D:
@@ -32996,7 +32888,7 @@ Transform:
   m_LocalScale: {x: 0.79775, y: 0.86752, z: 0.98673}
   m_Children: []
   m_Father: {fileID: 67587367}
-  m_RootOrder: 101
+  m_RootOrder: 100
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!68 &2002308738
 EdgeCollider2D:
@@ -33119,11 +33011,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2032261305}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 191.70999, y: 0.30300087, z: 0}
+  m_LocalPosition: {x: 190.11975, y: 0.30300087, z: 0}
   m_LocalScale: {x: 0.79775, y: 0.86752, z: 0.98673}
   m_Children: []
   m_Father: {fileID: 67587367}
-  m_RootOrder: 90
+  m_RootOrder: 89
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!68 &2032261307
 EdgeCollider2D:
@@ -33246,11 +33138,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2049576227}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 185.84799, y: 0.2830004, z: 0}
+  m_LocalPosition: {x: 184.25775, y: 0.2830004, z: 0}
   m_LocalScale: {x: 0.79775, y: 0.86752, z: 0.98673}
   m_Children: []
   m_Father: {fileID: 67587367}
-  m_RootOrder: 87
+  m_RootOrder: 86
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!68 &2049576229
 EdgeCollider2D:
@@ -33376,7 +33268,7 @@ Transform:
   m_LocalScale: {x: 5.895635, y: 0.78742, z: 1}
   m_Children: []
   m_Father: {fileID: 67587367}
-  m_RootOrder: 29
+  m_RootOrder: 28
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &2100783908
 BoxCollider2D:
@@ -33590,7 +33482,7 @@ Transform:
   m_LocalScale: {x: 3.74802, y: 0.78742, z: 1}
   m_Children: []
   m_Father: {fileID: 67587367}
-  m_RootOrder: 7
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &2127908981
 BoxCollider2D:
