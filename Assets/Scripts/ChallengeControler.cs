@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class ChallengeControler : MonoBehaviour{
 
-    public float scrollspeed = 5.0f;
+    public float scrollspeed = 6.5f;
     bool isGameOver = false;
 
     // Start is called before the first frame update
@@ -43,7 +43,7 @@ public class ChallengeControler : MonoBehaviour{
     }
     public void SpeedX1()
     {
-        scrollspeed = 5.0f;
+        scrollspeed = 6.5f;
     }
 
 
